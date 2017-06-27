@@ -10,3 +10,5 @@ Examples for functionality of this theme:
 After git pull of your main repository (e.g. ixtheo/krimdok), dont forget:
 * git submodule init
 * git submodule update
+For later checkouts
+* git submodule update --init --recursive --remote

@@ -1,7 +1,12 @@
 <?php
 return array(
     'extends' => 'bootstrap3',
-    'js' => array(
+    'helpers' => [
+        'factories' => [
+            'helptext' => 'TueLib\View\Helper\Root\Factory::getHelpText',
+        ],
+    ],
+    'js' => [
         'ubtue.js',
-    ),
+    ],
 );
